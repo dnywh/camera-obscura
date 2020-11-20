@@ -1,0 +1,66 @@
+{
+  "items": [
+    {
+      "year": 1839,
+      "url": "/about-us/"
+    },
+    {
+      "year": 1861,
+      "url": "/work/"
+    },
+    {
+      "year": 1944,
+      "winner": {
+        "img": "https://media.artgallery.nsw.gov.au/thumbnails/prize_images/1944ARC_Smith.jpg.291x380_q85.jpg",
+        "url": "https://www.artgallery.nsw.gov.au/prizes/archibald/1944/18646/"
+      },
+      "otherFinalists": [
+        {
+          "img": "https://media.artgallery.nsw.gov.au/thumbnails/prize_images/BURCH_Betty_Self-portrait_ARCHIE1944_owner_1024px.jpg.416x605_q85.jpg",
+          "url": "https://www.artgallery.nsw.gov.au/prizes/archibald/1944/15003/",
+          "prize": "finalist"
+        },
+        {
+          "img": "https://media.artgallery.nsw.gov.au/thumbnails/prize_images/DE-LOUGH_Evelyn_HeresGoodHealth_ARCHIE1944_owner1024px.jpg.444x605_q85.jpg",
+          "url": "https://www.artgallery.nsw.gov.au/prizes/archibald/1944/15649/",
+          "prize": "finalist"
+        }
+      ]
+    },
+    {
+      "year": 1989,
+      "url": "/contact/"
+    },
+    {
+      "year": 1990,
+      "url": "/contact/"
+    },
+    {
+      "year": 2007,
+      "url": "/contact/"
+    },
+    {
+      "year": 2017,
+      "url": "/contact/"
+    },
+    {
+      "year": 2018,
+      "winner": {
+        "img": "https://media.artgallery.nsw.gov.au/thumbnails/prize_images/Coppersmith_2560px.jpg.314x380_q85.jpg",
+        "url": "https://www.artgallery.nsw.gov.au/prizes/archibald/2018/29954/"
+      },
+      "otherFinalists": [
+        {
+          "img": "https://media.artgallery.nsw.gov.au/thumbnails/prize_images/Middleton_3May_2560px.jpg.168x168_q85.jpg",
+          "url": "",
+          "prize": "Peoples' Choice"
+        },
+        {
+          "img": "https://media.artgallery.nsw.gov.au/thumbnails/prize_images/Preisz_2560px.jpg.130x170_q85.jpg",
+          "url": "",
+          "prize": "Packing Room Prize"
+        }
+      ]
+    }
+  ]
+}

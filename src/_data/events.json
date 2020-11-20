@@ -1,0 +1,23 @@
+{
+  "items": [
+    {
+      "startYear": 1826,
+      "endYear": 1866,
+      "desc": "Something big happened here",
+      "yearsToMainstream": 0.5,
+      "yearsDeclineFromMainstream": 10
+    },
+    {
+      "startYear": 1956,
+      "endYear": 2000,
+      "desc": "Mainstream film photography",
+      "yearsToMainstream": 10,
+      "yearsDeclineFromMainstream": 6
+    },
+    {
+      "startYear": 1999,
+      "desc": "Digital photography",
+      "yearsToMainstream": 5
+    }
+  ]
+}

@@ -2,15 +2,13 @@
   "name": "camera-obscura",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": ".eleventy.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "npx eleventy --serve"
   },
-  "author": "Danny White",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^8.2.0",
-    "flickr-sdk": "^3.9.0"
+    "@11ty/eleventy": "^0.11.1"
   }
 }
