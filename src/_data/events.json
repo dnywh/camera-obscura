@@ -8,11 +8,20 @@
       "yearsDeclineFromMainstream": 10
     },
     {
+      "startYear": 1921,
+      "desc": "Archibald Prize starts"
+    },
+    {
       "startYear": 1956,
       "endYear": 2000,
       "desc": "Mainstream film photography",
       "yearsToMainstream": 10,
       "yearsDeclineFromMainstream": 6
+    },
+    {
+      "startYear": 1990,
+      "desc": "Adobe Photoshop",
+      "yearsToMainstream": 3
     },
     {
       "startYear": 1999,

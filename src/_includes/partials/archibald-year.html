@@ -1,0 +1,22 @@
+<ul>
+    <li>
+
+        <figure>
+            <a href="{{ item.winner.url }}" target="_blank" rel="noopener noreferrer">
+                <img src="{{ item.winner.img }}" alt="The Archibald Prize winning painting for {{ item.year }}">
+            </a>
+        </figure>
+    </li>
+
+    {% if item.otherFinalists %}
+        {% for finalist in item.otherFinalists %}
+            <li>
+                <figure>
+                    <a href="{{ finalist.url }}" target="_blank" rel="noopener noreferrer">
+                        <img src="{{ finalist.img }}" alt="A painting finalist for {{ item.year }}">
+                    </a>
+                </figure>
+            </li>
+        {% endfor %}
+    {% endif %}
+</ul>

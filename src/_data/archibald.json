@@ -1,12 +1,23 @@
 {
   "items": [
     {
-      "year": 1839,
-      "url": "/about-us/"
-    },
-    {
-      "year": 1861,
-      "url": "/work/"
+      "year": 1921,
+      "winner": {
+        "img": "https://media.artgallery.nsw.gov.au/thumbnails/collection_images/4/4557%23%23S.jpg.505x522_q85.jpg",
+        "url": "https://www.artgallery.nsw.gov.au/prizes/archibald/1921/17367/"
+      },
+      "otherFinalists": [
+        {
+          "img": "https://media.artgallery.nsw.gov.au/thumbnails/collection_images/9/955%23%23S.jpg.505x416_q85.jpg",
+          "url": "https://www.artgallery.nsw.gov.au/prizes/archibald/1921/21260/",
+          "prize": "finalist"
+        },
+        {
+          "img": "https://media.artgallery.nsw.gov.au/thumbnails/collection_images/9/979%23%23S.jpg.400x605_q85.jpg",
+          "url": "https://www.artgallery.nsw.gov.au/prizes/archibald/1921/21252/",
+          "prize": "finalist"
+        }
+      ]
     },
     {
       "year": 1944,
@@ -28,12 +39,23 @@
       ]
     },
     {
-      "year": 1989,
-      "url": "/contact/"
-    },
-    {
       "year": 1990,
-      "url": "/contact/"
+      "winner": {
+        "img": "https://media.artgallery.nsw.gov.au/thumbnails/prize_images/1990ARC_Proud.jpg.482x605_q85.jpg",
+        "url": "https://www.artgallery.nsw.gov.au/prizes/archibald/1990/18128/"
+      },
+      "otherFinalists": [
+        {
+          "img": "https://media.artgallery.nsw.gov.au/thumbnails/prize_images/Wilson_Haydn_JulianAshtonSchool_Archibald1990_arch-p98a.jpg.415x605_q85.jpg",
+          "url": "https://www.artgallery.nsw.gov.au/prizes/archibald/1990/16767/",
+          "prize": "finalist"
+        },
+        {
+          "img": "https://media.artgallery.nsw.gov.au/thumbnails/prize_images/DE-BERENGER_Susanne_MargaretFink_ARCHIE1990_artist_1024px.jpg.421x605_q85.jpg",
+          "url": "https://www.artgallery.nsw.gov.au/prizes/archibald/1990/15643/",
+          "prize": "finalist"
+        }
+      ]
     },
     {
       "year": 2007,

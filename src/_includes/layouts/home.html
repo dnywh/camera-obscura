@@ -1,54 +1,50 @@
 {% extends "layouts/base.html" %}
 
 {% block content %}
-<article>
-    <h1>{{ site.name }}</h1>
-    {{ content | safe }}
+    <article>
+        <h1>{{ site.name }}</h1>
+        {{ content | safe }}
 
-
-    <ul>
-        {% for item in events.items %}
-        <li>
-            {{ item.desc }}, {{item.startYear}}—{{item.endYear}}
-        </li>
-        {% endfor %}
-    </ul>
-
-
-    <ul>
-        {% for item in archibald.items %}
-        <h2>{{ item.year }}</h2>
         <ul>
-            <li>
+            {% for year in years %}
+                <li>
+                    <h2>{{ year }}</h2>
+                    {# Check for any Events data here #}
+                    {% for item in events.items %}
+                        {# TODO: change to any year in this range (with a helpher) #}
+                        {# Not just startYear #}
+                        {% if item.startYear === year %}
+                            <p>{{ item.desc }}</p>
+                        {% endif %}
+                    {% endfor %}
 
-                <figure>
-                    <a href="{{ item.winner.url }}" target="_blank" rel="noopener noreferrer">
-                        <img src="{{ item.winner.img }}" alt="The Archibald Prize winning painting for {{ item.year }}">
-                    </a>
-                </figure>
-            </li>
+                    {# Check for any Archibald data for this year #}
+                    {% for item in archibald.items %}
+                        {% if item.year === year %}
+                            {% include "partials/archibald-year.html" %}
+                        {% endif %}
+                    {% endfor %}
 
-            {% if item.otherFinalists %}
-            {% for finalist in item.otherFinalists %}
-            <li>
-                <figure>
-                    <a href="{{ finalist.url }}" target="_blank" rel="noopener noreferrer">
-                        <img src="{{ finalist.img }}" alt="A painting finalist for {{ item.year }}">
-                    </a>
-                </figure>
-            </li>
+                </li>
             {% endfor %}
-            {% endif %}
-
-
         </ul>
 
+        <hr>
 
+        <ul>
+            {% for item in events.items %}
+                <li>
+                    {{ item.desc }}, {{item.startYear}}—{{item.endYear}}
+                </li>
+            {% endfor %}
+        </ul>
 
-        {% endfor %}
-    </ul>
+        <ul>
+            {% for item in archibald.items %}
+                {% include "partials/archibald-year.html" %}
 
+            {% endfor %}
+        </ul>
 
-
-</article>
+    </article>
 {% endblock %}

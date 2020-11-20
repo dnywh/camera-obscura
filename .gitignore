@@ -1,6 +1,5 @@
-.vscode
-
 # Misc
+.vscode
 *.log
 npm-debug.*
 *.scssc
