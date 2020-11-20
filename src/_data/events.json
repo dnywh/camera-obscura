@@ -2,30 +2,48 @@
   "items": [
     {
       "startYear": 1826,
-      "endYear": 1866,
-      "desc": "Something big happened here",
-      "yearsToMainstream": 0.5,
-      "yearsDeclineFromMainstream": 10
+      "desc": "World's first photograph (heliography)"
+    },
+    {
+      "startYear": 1839,
+      "desc": "World's first selfie"
     },
     {
       "startYear": 1921,
       "desc": "Archibald Prize starts"
     },
     {
+      "startYear": 1939,
+      "startDesc": "World War II breaks out",
+      "desc": "Many photojournalists adopt the style of Henri-Cartier Bresson and other photographers: using small 35mm cameras to capture images of life as it occurred rather than staged portraits.",
+      "endYear": 1945,
+      "yearsToMainstream": 1
+    },
+    {
       "startYear": 1956,
-      "endYear": 2000,
+      "startDesc": "Cameras become more prevalent in society, as does film development",
       "desc": "Mainstream film photography",
+      "endYear": 2000,
+      "endDesc": "Film cameras slowly become superseded by digital ones",
       "yearsToMainstream": 10,
       "yearsDeclineFromMainstream": 6
     },
     {
       "startYear": 1990,
+      "startDesc": "Photoshop is released for Macintosh for $895. It took a few years for it to be released to Windows (1993) and thus the mass market and global reach. It quickly became the industry standard in digital colour editing.",
       "desc": "Adobe Photoshop",
       "yearsToMainstream": 3
     },
     {
       "startYear": 1999,
+      "startDesc": "FUJIX DS-X is the first mass-market digital camera.",
       "desc": "Digital photography",
+      "yearsToMainstream": 5
+    },
+    {
+      "startYear": 2017,
+      "startDesc": "Reddit user 'deepfake' coins the term for synthetic media where a person in an image or video is swapped with another person's likeness.",
+      "desc": "Deepfakes",
       "yearsToMainstream": 5
     }
   ]

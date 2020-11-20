@@ -39,6 +39,25 @@
       ]
     },
     {
+      "year": 1956,
+      "winner": {
+        "img": "https://media.artgallery.nsw.gov.au/thumbnails/prize_images/1956ARC_Dargie.jpg.451x605_q85.jpg",
+        "url": "https://www.artgallery.nsw.gov.au/prizes/archibald/1956/15530/"
+      },
+      "otherFinalists": [
+        {
+          "img": "https://media.artgallery.nsw.gov.au/thumbnails/prize_images/JACK_Kenneth_SelfPortrait_ARCHIE1956_artistestate1024px.jpg.427x605_q85.jpg",
+          "url": "https://www.artgallery.nsw.gov.au/prizes/archibald/1956/16686/",
+          "prize": "finalist"
+        },
+        {
+          "img": "https://media.artgallery.nsw.gov.au/thumbnails/collection_images/9/9319%23%23S.jpg.482x605_q85.jpg",
+          "url": "https://www.artgallery.nsw.gov.au/prizes/archibald/1956/16644/",
+          "prize": "finalist"
+        }
+      ]
+    },
+    {
       "year": 1990,
       "winner": {
         "img": "https://media.artgallery.nsw.gov.au/thumbnails/prize_images/1990ARC_Proud.jpg.482x605_q85.jpg",
@@ -63,7 +82,22 @@
     },
     {
       "year": 2017,
-      "url": "/contact/"
+      "winner": {
+        "img": "https://media.artgallery.nsw.gov.au/thumbnails/prize_images/Cairns_Mitch_SID65314_2560px.jpg.505x567_q85.jpg",
+        "url": "https://www.artgallery.nsw.gov.au/prizes/archibald/2017/29825/"
+      },
+      "otherFinalists": [
+        {
+          "img": "https://media.artgallery.nsw.gov.au/thumbnails/prize_images/Do_A_SID65285_2560px.jpg.501x605_q85.jpg",
+          "url": "https://www.artgallery.nsw.gov.au/prizes/archibald/2017/29832/",
+          "prize": "Peoples' Choice"
+        },
+        {
+          "img": "https://media.artgallery.nsw.gov.au/thumbnails/prize_images/Smeeth_P_SID65309_2560px.jpg.505x336_q85.jpg",
+          "url": "https://www.artgallery.nsw.gov.au/prizes/archibald/2017/29818/",
+          "prize": "Packing Room Prize"
+        }
+      ]
     },
     {
       "year": 2018,

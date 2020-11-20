@@ -1,25 +1,42 @@
 {% extends "layouts/base.html" %}
+{% set allRelevantYears = helpers.getAllRelevantYears(archibald.items, events.items) %}
 
 {% block content %}
     <article>
         <h1>{{ site.name }}</h1>
         {{ content | safe }}
 
+        <ol>
+            {% for item in allRelevantYears %}
+                <li>{{ item }}</li>
+            {% endfor %}
+        </ol>
+
         <ul>
-            {% for year in years %}
+            {% for year in allRelevantYears %}
                 <li>
                     <h2>{{ year }}</h2>
-                    {# Check for any Events data here #}
                     {% for item in events.items %}
-                        {# TODO: change to any year in this range (with a helpher) #}
-                        {# Not just startYear #}
+                        {# Check for any Events data for this year #}
+                        {# TODO: change to any year (not just startYear) in this range (with a helpher?) #}
                         {% if item.startYear === year %}
-                            <p>{{ item.desc }}</p>
+                            {# Check if there is startDesc #}
+                            {% if item.startDesc %}
+                                <p>Start desc: {{ item.startDesc }}</p>
+                            {% endif %}
+                            {# TODO: change the above text to general .desc after startYear + yearsToMainstream #}
+                            {# TODO: make this general desc appear for every year in between (startYear + yearsToMainstream) and (endYear - yearsDeclineFromMainstream) #}
+                            <p>General desc: {{ item.desc }}</p>
+                            {# TODO: change the above text to general .desc after endYear - yearsDeclineFromMainstream #}
+                            {# Check if there is endDesc #}
+                            {% if item.endDesc %}
+                                <p>End desc: {{ item.endDesc }}</p>
+                            {% endif %}
                         {% endif %}
                     {% endfor %}
 
-                    {# Check for any Archibald data for this year #}
                     {% for item in archibald.items %}
+                        {# Check for any Archibald data for this year #}
                         {% if item.year === year %}
                             {% include "partials/archibald-year.html" %}
                         {% endif %}
@@ -28,23 +45,5 @@
                 </li>
             {% endfor %}
         </ul>
-
-        <hr>
-
-        <ul>
-            {% for item in events.items %}
-                <li>
-                    {{ item.desc }}, {{item.startYear}}—{{item.endYear}}
-                </li>
-            {% endfor %}
-        </ul>
-
-        <ul>
-            {% for item in archibald.items %}
-                {% include "partials/archibald-year.html" %}
-
-            {% endfor %}
-        </ul>
-
     </article>
 {% endblock %}
