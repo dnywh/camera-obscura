@@ -41,6 +41,12 @@
       "yearsToMainstream": 5
     },
     {
+      "startYear": 2007,
+      "startDesc": "The first iPhone is released with a 2MP rear camera with geotagging.",
+      "desc": "iPhone",
+      "yearsToMainstream": 2
+    },
+    {
       "startYear": 2017,
       "startDesc": "Reddit user 'deepfake' coins the term for synthetic media where a person in an image or video is swapped with another person's likeness.",
       "desc": "Deepfakes",

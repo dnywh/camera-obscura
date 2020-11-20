@@ -15,7 +15,7 @@ Two data files:
 
 Example, annotated, item within events.json:
 
-```json
+```js
 {
       "startYear": 1956, // The year this event kicked off (required)
       "startDes": "Cameras become more prevalent in society, as does film development", // (required only if `startYear` is set)
@@ -31,10 +31,10 @@ Example, annotated, item within events.json:
 
 ### Showing data
 
-[] Make a helper that compares years (including ranges of `startYear` to `endYear`) across data files and makes a list of years from that
-[] Use that list to architect the 'spine' of the index page
-[] Have Archibald and Event data unfurl on either side of that spine accordingly
+- [] Make a helper that compares years (including ranges of `startYear` to `endYear`) across data files and makes a list of years from that
+- [] Use that list to architect the 'spine' of the index page
+- [] Have Archibald and Event data unfurl on either side of that spine accordingly
 
 ### Styling
 
-[] Prototype horizontal layout
+- [] Prototype horizontal layout

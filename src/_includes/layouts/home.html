@@ -7,12 +7,6 @@
         {{ content | safe }}
 
         <ol>
-            {% for item in allRelevantYears %}
-                <li>{{ item }}</li>
-            {% endfor %}
-        </ol>
-
-        <ul>
             {% for year in allRelevantYears %}
                 <li>
                     <h2>{{ year }}</h2>
@@ -44,6 +38,6 @@
 
                 </li>
             {% endfor %}
-        </ul>
+        </ol>
     </article>
 {% endblock %}

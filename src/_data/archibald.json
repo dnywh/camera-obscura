@@ -78,7 +78,22 @@
     },
     {
       "year": 2007,
-      "url": "/contact/"
+      "winner": {
+        "img": "https://media.artgallery.nsw.gov.au/thumbnails/prize_images/BG_Beard.jpg.505x507_q85.jpg",
+        "url": "https://www.artgallery.nsw.gov.au/prizes/archibald/2007/28454/"
+      },
+      "otherFinalists": [
+        {
+          "img": "https://media.artgallery.nsw.gov.au/thumbnails/prize_images/BG_Ploeg.jpg.505x311_q85.jpg",
+          "url": "https://www.artgallery.nsw.gov.au/prizes/archibald/2007/28484/",
+          "prize": "Peoples' Choice"
+        },
+        {
+          "img": "https://media.artgallery.nsw.gov.au/thumbnails/prize_images/BG_Bergstrom.jpg.505x503_q85.jpg",
+          "url": "https://www.artgallery.nsw.gov.au/prizes/archibald/2007/28455/",
+          "prize": "Packing Room Prize"
+        }
+      ]
     },
     {
       "year": 2017,
