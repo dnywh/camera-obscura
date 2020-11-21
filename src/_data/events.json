@@ -1,6 +1,11 @@
 {
   "items": [
     {
+      "startYear": 1,
+      "desc": "First cave paintings appear between 13,000–9,000 BP",
+      "url": "https://en.wikipedia.org/wiki/Cave_painting"
+    },
+    {
       "startYear": 1826,
       "desc": "World's first photograph (heliography)"
     },

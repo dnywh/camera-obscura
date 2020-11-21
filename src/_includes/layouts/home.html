@@ -3,7 +3,6 @@
 
 {% block content %}
     <article>
-        <h1>{{ site.name }}</h1>
         {{ content | safe }}
 
         <ol>
@@ -33,6 +32,22 @@
                         {# Check for any Archibald data for this year #}
                         {% if item.year === year %}
                             {% include "partials/archibald-year.html" %}
+                        {% endif %}
+                    {% endfor %}
+
+                    {% for item in art.items %}
+                        {# Check for any other art data for this year #}
+                        {% if item.year === year %}
+                            <ul>
+                                <li>
+
+                                    <figure>
+                                        <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
+                                            <img src="{{ item.img }}" alt="{{ item.attr }}">
+                                        </a>
+                                    </figure>
+                                </li>
+                            </ul>
                         {% endif %}
                     {% endfor %}
 

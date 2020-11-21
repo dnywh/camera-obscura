@@ -1,5 +1,5 @@
 ---
-title: "Hello, world"
+title: site.name
 layout: "layouts/home.html"
 ---
 
