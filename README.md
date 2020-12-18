@@ -22,7 +22,7 @@ Example, annotated, item within events.json:
     "desc": "Mainstream film photography", // The general description of this event (required)
     "endYear": 2000, // (optional)
     "endDesc": "Film cameras slowly become superseded by digital ones", // (optional)
-    "yearsToMainstream": 10, // How many years this event took to have an affect on society (required only if 'startDesc' is set)
+    "yearsToMainstream": 10, // How many years this event took to have an affect on society (required only if 'endYear' is set)
     "yearsDeclineFromMainstream": 6 // How many years it took for this event to have its effects diminished or superseded (required only if 'endDesc' is set)
 },
 ```

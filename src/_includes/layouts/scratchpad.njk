@@ -1,0 +1,55 @@
+<ol>
+    {% for year in allRelevantYears %}
+        <li>
+            <h2>{{ year }}</h2>
+            {% for item in events.items %}
+                {# Check for any Events data for this year #}
+                {# TODO: change to any year (not just startYear) in this range (with a helper?) #}
+                {% if item.startYear === year %}
+                    {# Check if there is startDesc #}
+                    {% if item.startDesc %}
+                        <p>Start desc: {{ item.startDesc }}</p>
+                    {% endif %}
+                    {# TODO: change the above text to general .desc after startYear + yearsToMainstream #}
+                    {# TODO: make this general desc appear for every year in between (startYear + yearsToMainstream) and (endYear - yearsDeclineFromMainstream) #}
+                    {# TODO: change the above text to general .desc after endYear - yearsDeclineFromMainstream #}
+                    {# Check if there is endDesc #}
+                    {% if item.endDesc %}
+                        <p>End desc: {{ item.endDesc }}</p>
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+
+            {# Temp: Loop through generated year data #}
+            {% for item in allEventDescOrdered %}
+                {% if item.year === year %}
+                    <p>General desc: {{ item.desc }}</p>
+                {% endif %}
+            {% endfor %}
+
+            {% for item in archibald.items %}
+                {# Check for any Archibald data for this year #}
+                {% if item.year === year %}
+                    {% include "partials/archibald-year.html" %}
+                {% endif %}
+            {% endfor %}
+
+            {% for item in art.items %}
+                {# Check for any other art data for this year #}
+                {% if item.year === year %}
+                    <ul>
+                        <li>
+
+                            <figure>
+                                <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
+                                    <img src="{{ item.img }}" alt="{{ item.attr }}">
+                                </a>
+                            </figure>
+                        </li>
+                    </ul>
+                {% endif %}
+            {% endfor %}
+
+        </li>
+    {% endfor %}
+</ol>

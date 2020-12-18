@@ -1,4 +1,8 @@
 module.exports = config => {
+    config.addWatchTarget("./src/sass/");
+    config.addPassthroughCopy("./src/css");
+    config.addPassthroughCopy("./src/scripts");
+
     return {
         // Lets me use Nunjunks for everything
         markdownTemplateEngine: 'njk',

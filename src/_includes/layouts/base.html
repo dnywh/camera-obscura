@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>{{ site.name }}</title>
-</head>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <title>{{ site.name }}</title>
+        <link rel="stylesheet" href="{{ "css/styles.css" | url }}">
+        <script src="scripts/intro.js" defer></script>
+        <script src="scripts/second-test.js" defer></script>
+    </head>
 
-<body>
-    {% include "partials/site-header.html" %}
-    <main>
-        {% block content %}{% endblock %}
-    </main>
-</body>
+    <body>
+        {# {% include "partials/site-header.html" %} #}
+        <main>
+            {% block content %}{% endblock %}
+        </main>
+
+        <!-- <script src="scripts/intro.js"></script> -->
+    </body>
 
 </html>

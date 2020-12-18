@@ -1,0 +1,16 @@
+{
+  "dancingWoman": {
+    "imgUrl": "https://www.oldest.org/wp-content/uploads/2017/11/Greek_Art.jpg",
+    "cite": "Test"
+  },
+  "robertCornelius": {
+    "imgUrl": "https://the-public-domain-review.imgix.net/collections/robert-cornelius-self-portrait-the-first-ever-selfie-1839/585px-RobertCornelius.jpg",
+    "cite": "Test two"
+  },
+  "ladyWithAnErmine": {
+    "imgUrl": "https://res.cloudinary.com/dannywhite/image/upload/h_500,q_50/v1608271100/camera-obscura/lady-with-an-ermine.jpg",
+    "srcUrl": "https://commons.wikimedia.org/wiki/File:Lady_with_an_Ermine_-_Leonardo_da_Vinci_-_Google_Art_Project.jpg",
+    "author": "Leonardo da Vinci",
+    "title": "The Lady with an Ermine (Portrait of Cecilia Gallerani)"
+  }
+}
