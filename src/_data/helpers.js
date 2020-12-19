@@ -1,5 +1,45 @@
 module.exports = {
     /**
+   * Returns whether or not the homepage is the active page
+   * Then hides this as an option in the header
+   *
+   * @param {String} itemUrl The link in question
+   * @param {String} pageUrl The page context
+   * @returns {String} The attributes or empty
+   */
+    getLinkHomeBehavior(itemUrl, pageUrl) {
+        let response = "";
+
+        if (itemUrl === "/" && itemUrl === pageUrl) {
+            response = ' class="hidden"';
+        }
+
+        return response;
+    },
+
+
+    /**
+   * Returns back some attributes based on whether the
+   * link is active or a parent of an active item
+   *
+   * @param {String} itemUrl The link in question
+   * @param {String} pageUrl The page context
+   * @returns {String} The attributes or empty
+   */
+    getLinkActiveState(itemUrl, pageUrl) {
+        let response = "";
+
+        if (itemUrl === pageUrl) {
+            response = ' aria-current="page" class="active"';
+        }
+
+        if (itemUrl.length > 1 && pageUrl.indexOf(itemUrl) === 0) {
+            response += ' data-state="active"';
+        }
+
+        return response;
+    },
+    /**
      * Returns back an array of every single year mentioned in data files
      */
     getAllRelevantYears(archibaldData, eventData) {
@@ -62,7 +102,7 @@ module.exports = {
                 }
 
                 // console.log(yearNumbersWithGeneralDesc)
-                console.log(mainArray)
+                // console.log(mainArray)
             }
 
         });

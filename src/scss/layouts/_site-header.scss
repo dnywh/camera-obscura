@@ -1,0 +1,38 @@
+header[role="banner"] {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+
+  ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+
+    li {
+      color: white;
+
+      &.hidden {
+        display: none;
+      }
+
+      a {
+        text-decoration: none;
+        color: inherit;
+        border-bottom: 1px solid black;
+        transition: all 250ms ease, border-bottom 300ms ease;
+
+        &.active {
+          opacity: 0.25;
+        }
+
+        &:hover {
+          opacity: 0.8;
+          border-bottom: 1px solid white;
+        }
+      }
+    }
+  }
+}

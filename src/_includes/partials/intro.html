@@ -1,12 +1,17 @@
 <section aria-label="graphic introduction">
   <div class="images">
-    <img data-ref="first" src="{{ attributions.dancingWoman.imgUrl }}" alt="Greek artwork" class="active">
+    {# Set standard transform for this section #}
+    {% set imgSrc = "https://res.cloudinary.com/dannywhite/image/upload/h_500,q_50/v1608271100/camera-obscura/" %}
+    {# Begin three images #}
+    <img data-ref="first" 
+      src="{{ imgSrc }}{{ attributions.frescoFragmentOfADancingWoman.imgUrl }}"
+      alt="{{ attributions.frescoFragmentOfADancingWoman.title }}" class="active">
     <img data-ref="second"
-      src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/600px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg"
-      alt="The Mona Lisa">
+      src="{{ imgSrc }}{{ attributions.monaLisa.imgUrl }}"
+      alt="{{ attributions.monaLisa.title }}">
     <img data-ref="third"
-      src="https://the-public-domain-review.imgix.net/collections/robert-cornelius-self-portrait-the-first-ever-selfie-1839/585px-RobertCornelius.jpg"
-      alt="Robert Cornelius">
+      src="{{ imgSrc }}{{ attributions.robertCornelius.imgUrl }}"
+      alt="{{ attributions.robertCornelius.title }}">
   </div>
 
   <div class="text">
@@ -37,12 +42,14 @@
   </div>
 
   <div class="images">
+    {# Set standard transform for this section #}
+    {% set imgSrc = "https://res.cloudinary.com/dannywhite/image/upload/h_500,q_50/v1608271100/camera-obscura/" %}
     <figure>
-      <img src="{{ attributions.ladyWithAnErmine.imgUrl }}" alt="A painting of a woman and a weasel">
+      <img src="{{ imgSrc }}{{ attributions.ladyWithAnErmine.imgUrl }}" alt="A painting of a woman and a weasel">
       <figcaption>Someone important</figcaption>
     </figure>
     <figure>
-      <img src="https://res.cloudinary.com/dannywhite/image/upload/h_500,q_50/v1608271694/camera-obscura/danny.jpg"
+      <img src="{{ imgSrc }}{{ attributions.danny.imgUrl }}"
         alt="A photo of the author as a child">
       <figcaption>Someone not</figcaption>
     </figure>
@@ -61,28 +68,40 @@
       of
       FaceTune and on the cusp of Deepfake, photos can no longer be assumed to be an objective record. Nor could they
       ever
-      be. As John Berger put it:</p>
+      be.</p>
+
+    <figure class="quote">
+      {# <figcaption>
+        <cite>As John Berger put it:</cite>
+      </figcaption> #}
+      <blockquote cite="https://mlung1.workflow.arts.ac.uk/ways-of-seeing">
+        <p>
+          <span>Every image embodies a way of seeing. Even a photograph. For photographs are not, as is
+often assumed, a mechanical record. Every time we look at a photograph, we are aware, however slightly, of the photographer selecting that sight from an infinity of other possible sights</span>. This is true even in the most casual family snapshot. <span>The photographer’s way of seeing is reflected in his choice of subject. The painter’s way of seeing is reconstituted by the marks he makes on the canvas or paper</span>. Yet, although every image embodies a way of seeing, our perception or appreciation of an image depends also upon our own way of seeing.</p>
+      </blockquote>
+      <figcaption>—John Berger, <cite>Ways of Seeing</cite>
+      </figcaption>
+    </figure>
   </div>
-</section>
 
-<aside class="callout">
-  <p>This webpage explores the how portraiture and photography have each developed.</p>
-</aside>
+  <aside class="callout">
+    <p>This webpage explores the how portraiture and photography have each developed.</p>
+  </aside>
 
-<section class="container">
-  <p>
-    Material innovations, invention of new pigments, feminism, money, new social norms... There are a lot of other
-    historical developments that affect portraiture (and photography). I'm *not* using this essay to draw the conclusion
-    that photography has been the sole transformative element in portraiture. Maybe the affect is minimal. I don't know
-    enough about either mediums to say. This is why I...
+  <ul class="gallery-wall">
+    {% for item in paintings %}
+      <li>
+        {# TODO: use g_face?  #}
+        <img src="https://res.cloudinary.com/dannywhite/image/upload/h_100,q_50/v1608271100/camera-obscura/{{ item.paintings[0].imgUrl }}" alt="TODO" title="{{ item.year }}">
+      </li>
+    {% endfor %}
+  </ul>
 
-    ~~I've almost exhausted my knowledge on both, so~~ won't pretend to draw conclusions. By putting them side-by-side
-    though, I think we can make some fairly strong ones, together. [I'll also do my best to mention other, major, non
-    portraiture and photography developments]. The focus will remain on portraiture and painting though. If you want to
-    know more about the actual cause and effect on the changes in portraiture, I've heard X, Y, and Z are good
-    places/books to start.
+  <div class="container">
+    <p>
+      Material innovations, invention of new pigments... There are a lot of other
+      historical developments that affect portraiture (and photography). (TK)
+    </p>
+  </div>
 
-    Also keep in mind that other mediums—that I won't get into—have become available for portraiture, also changing the
-    meaning of portraiture painting. Prints (etching, lithography), video, and digital media.
-  </p>
 </section>

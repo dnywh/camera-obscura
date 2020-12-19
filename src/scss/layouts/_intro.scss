@@ -59,6 +59,7 @@ section[aria-label="graphic introduction"] {
 
 section[aria-label="textual introduction"] {
   margin-top: 5rem;
+  margin-bottom: 50vh;
 
   .images {
     display: flex;
@@ -91,13 +92,50 @@ section[aria-label="textual introduction"] {
       }
     }
   }
+
+  aside.callout {
+    margin: 0 auto;
+    max-width: 960px;
+
+    p {
+      font-size: 4rem;
+      text-align: center;
+    }
+  }
 }
 
-aside.callout {
-  margin: 0 auto;
-  max-width: 960px;
+ul.gallery-wall {
+  margin: 0 1rem;
+  @media (min-width: 720px) {
+    margin: 0 2rem;
+  }
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: flex-end;
 
-  p {
-    font-size: 6rem;
+  li {
+    img {
+      width: 100%;
+    }
+  }
+}
+
+figure.quote {
+  transform: rotate(-0.4deg);
+  font-family: sans-serif;
+  max-width: 74ch;
+  filter: brightness(90) contrast(99999999%);
+
+  blockquote {
+    p {
+      font-size: 1.25rem;
+      line-height: 170%;
+      font-weight: bold;
+
+      span {
+        background-color: yellow;
+      }
+    }
   }
 }

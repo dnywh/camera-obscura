@@ -9,7 +9,6 @@ let observer = new IntersectionObserver(
   (entries) =>
     entries.forEach((entry) => {
       const currentlyActiveP = entry.target.firstElementChild;
-      console.log(currentlyActiveP);
       if (entry.isIntersecting) {
         intersectionHandler(entry);
         currentlyActiveP.classList.add("active");

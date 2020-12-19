@@ -1,4 +1,8 @@
+// const smoothScroll = require("smoothscroll-polyfill");
+
 module.exports = config => {
+    // config.addPlugin(smoothScroll);
+
     config.addWatchTarget("./src/sass/");
     config.addPassthroughCopy("./src/css");
     config.addPassthroughCopy("./src/scripts");

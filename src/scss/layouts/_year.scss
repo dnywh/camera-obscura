@@ -1,0 +1,71 @@
+header[aria-label="year navigator"] {
+  position: sticky;
+  top: 0;
+  overflow-x: scroll;
+  padding: 0.5rem 1rem;
+  background-color: white;
+  border-bottom: 1px solid black;
+
+  ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-content: center;
+    font-family: sans-serif;
+    font-weight: bold;
+
+    li {
+      margin-right: 2rem;
+
+      &:last-of-type {
+        padding-right: 1rem;
+      }
+
+      a {
+        text-decoration: none;
+        color: inherit;
+        border-bottom: 1px solid white;
+        transition: all 250ms ease, border-bottom 300ms ease;
+
+        &.active {
+          opacity: 0.25;
+        }
+
+        &:hover {
+          opacity: 0.8;
+          border-bottom: 1px solid black;
+        }
+      }
+    }
+  }
+}
+section[aria-label="year section"] {
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-top: 12rem;
+  padding-top: 4rem; // TODO: replace with the property that allows for inset
+
+  h2 {
+    font-size: 6rem;
+    line-height: 100%;
+    text-align: center;
+    margin: 0;
+  }
+
+  p {
+    font-size: 3rem;
+    line-height: 4.75rem;
+
+    img {
+      cursor: pointer;
+      transform: translateY(0.5rem);
+      height: 3rem;
+    }
+  }
+
+  ul {
+    padding: 0;
+    list-style-type: none;
+    display: grid;
+  }
+}

@@ -1,0 +1,107 @@
+[
+  {
+    "year": 1503,
+    "paintings": [
+      {
+        "imgUrl": "mona-lisa",
+        "srcUrl": "https://commons.wikimedia.org/wiki/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched",
+        "title": "Mona Lisa",
+        "author": "Leonardo da Vinci"
+      }
+    ]
+  },
+  {
+    "year": 1862,
+    "paintings": [
+      {
+        "imgUrl": "symphony-in-white",
+        "srcUrl": "https://www.nga.gov/collection/art-object-page.12198.html",
+        "title": "Symphony in White, No. 1: The White Girl",
+        "artist": "James McNeill Whistler"
+      }
+    ]
+  },
+  {
+    "year": 1888,
+    "paintings": [
+      {
+        "imgUrl": "la-mousme",
+        "srcUrl": "https://www.nga.gov/collection/art-object-page.46626.html",
+        "title": "La Mousmé",
+        "artist": "Vincent van Gogh"
+      }
+    ]
+  },
+  {
+    "year": 1921,
+    "paintings": [
+      {
+        "imgUrl": "h-desbrowe-annear",
+        "srcUrl": "https://www.artgallery.nsw.gov.au/collection/works/4557/",
+        "title": "H. Desbrowe Annear",
+        "artist": "W B McInnes"
+      }
+    ]
+  },
+  {
+    "year": 1992,
+    "paintings": [
+      {
+        "imgUrl": "the-prime-minister",
+        "srcUrl": "https://www.artgallery.nsw.gov.au/prizes/archibald/1991-92/19241/",
+        "title": "The Prime Minister",
+        "artist": "Bryan Westwood"
+      }
+    ]
+  },
+  {
+    "year": 2003,
+    "paintings": [
+      {
+        "imgUrl": "richard-flanagan",
+        "srcUrl": "https://www.artgallery.nsw.gov.au/prizes/archibald/2003/22978/",
+        "title": "Richard Flanagan",
+        "artist": "Geoffrey Dyer"
+      }
+    ]
+  },
+  {
+    "year": 2004,
+    "paintings": [
+      {
+        "imgUrl": "david-gulpilil-two-worlds",
+        "srcUrl": "https://www.artgallery.nsw.gov.au/prizes/archibald/2004/27945/",
+        "title": "David Gulpilil, two worlds",
+        "artist": "Craig Ruddy"
+      },
+      {
+        "imgUrl": "jana-wendt",
+        "srcUrl": "https://www.artgallery.nsw.gov.au/prizes/archibald/2004/27941/",
+        "title": "Jana Wendt",
+        "artist": "Evert Ploeg"
+      }
+    ]
+  },
+  {
+    "year": 2007,
+    "paintings": [
+      {
+        "imgUrl": "janet-laurence",
+        "srcUrl": "https://www.artgallery.nsw.gov.au/collection/works/346.2007/",
+        "title": "Janet Laurence",
+        "artist": "John Beard"
+      }
+    ]
+  },
+  {
+    "year": 2018,
+    "paintings": [
+      {
+        "imgUrl": "agatha-gothe-snape",
+        "srcUrl": "https://www.artgallery.nsw.gov.au/prizes/archibald/2017/29825/",
+        "title": "Agatha Gothe-Snape",
+        "artist": "Mitch Cairns"
+      }
+    ]
+  }
+]
