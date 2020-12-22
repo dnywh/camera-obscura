@@ -1,13 +1,13 @@
 {
-  "frescoFragmentOfADancingWoman": {
-    "imgUrl": "fresco-fragment-of-a-dancing-woman.jpg",
+  "dancingWomanFromKnossos": {
+    "imgUrl": "dancing-woman-from-knossos.jpg",
     "srcUrl": "https://commons.wikimedia.org/wiki/File:AMI_-_T%C3%A4nzerin.jpg",
-    "title": "Fresco fragment of a dancing woman",
+    "title": "Dancing Woman from Knossos",
     "author": "Wolfgang Sauber"
   },
   "monaLisa": {
     "imgUrl": "mona-lisa.jpg",
-    "srcUrl": "https://commons.wikimedia.org/wiki/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg",
+    "srcUrl": "https://commons.wikimedia.org/wiki/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched",
     "title": "Mona Lisa",
     "author": "Leonardo da Vinci"
   },

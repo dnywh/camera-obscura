@@ -122,20 +122,27 @@ ul.gallery-wall {
 }
 
 figure.quote {
-  transform: rotate(-0.4deg);
-  font-family: sans-serif;
-  max-width: 74ch;
-  filter: brightness(90) contrast(99999999%);
-
   blockquote {
+    margin: 0;
+    filter: brightness(90) contrast(99999999%);
+
     p {
+      padding: 2rem;
       font-size: 1.25rem;
       line-height: 170%;
       font-weight: bold;
+      background-color: white;
+      font-family: sans-serif;
+      box-shadow: 1px 0.5px 1px rgba(0, 0, 0, 0.5);
+      transform: rotate(-0.4deg);
 
       span {
         background-color: yellow;
       }
     }
+  }
+  figcaption {
+    margin-top: -1rem;
+    text-align: center;
   }
 }

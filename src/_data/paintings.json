@@ -1,20 +1,88 @@
 [
   {
-    "year": 1503,
+    "year": -1600,
+    "yearRange": "1600–1450 BC",
     "paintings": [
       {
-        "imgUrl": "mona-lisa",
+        "imgUrl": "dancing-woman-from-knossos.jpg",
+        "srcUrl": "https://commons.wikimedia.org/wiki/File:AMI_-_T%C3%A4nzerin.jpg",
+        "title": "Dancing Woman from Knossos",
+        "artist": "Wolfgang Sauber"
+      }
+    ]
+  },
+  {
+    "year": -500,
+    "yearRange": "500–400 BC",
+    "paintings": [
+      {
+        "imgUrl": "terracotta-pyxis-box.jpg",
+        "srcUrl": "https://www.metmuseum.org/art/collection/search/247916",
+        "title": "Terracotta pyxis (box)",
+        "artist": "Penthesilea Painter "
+      }
+    ]
+  },
+  {
+    "year": 1,
+    "yearRange": "1st century AD",
+    "paintings": [
+      {
+        "imgUrl": "mummy-portrait.jpg",
+        "srcUrl": "https://www.britishmuseum.org/collection/image/177045001",
+        "title": "Mummy Portrait",
+        "artist": "The Trustees of the British Museum"
+      }
+    ]
+  },
+  {
+    "year": 1500,
+    "yearRange": "1500s",
+    "paintings": [
+      {
+        "imgUrl": "mona-lisa.jpg",
         "srcUrl": "https://commons.wikimedia.org/wiki/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched",
         "title": "Mona Lisa",
         "author": "Leonardo da Vinci"
+      },
+      {
+        "imgUrl": "self-portrait-at-28.jpg",
+        "srcUrl": "https://commons.wikimedia.org/wiki/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched",
+        "title": "Self-Portrait at 28 (Selbstbildnis mit Pelzrock)",
+        "author": "Albrecht Dürer"
+      }
+    ]
+  },
+  {
+    "year": 1689,
+    "yearRange": "1600s",
+    "paintings": [
+      {
+        "imgUrl": "portrait-of-isaac-newton.jpg",
+        "srcUrl": "https://www.phys.uu.nl/~vgent/astrology/images/newton1689.jpg",
+        "title": "Portrait of Isaac Newton (1642-1727)",
+        "artist": "Godfrey Kneller"
+      }
+    ]
+  },
+  {
+    "year": 1830,
+    "yearRange": "1830s",
+    "paintings": [
+      {
+        "imgUrl": "american-gothic.jpg",
+        "srcUrl": "https://www.artic.edu/artworks/6565/american-gothic",
+        "title": "American Gothic",
+        "artist": "Grant Wood"
       }
     ]
   },
   {
     "year": 1862,
+    "yearRange": "1860s",
     "paintings": [
       {
-        "imgUrl": "symphony-in-white",
+        "imgUrl": "symphony-in-white.jpg",
         "srcUrl": "https://www.nga.gov/collection/art-object-page.12198.html",
         "title": "Symphony in White, No. 1: The White Girl",
         "artist": "James McNeill Whistler"
@@ -22,10 +90,23 @@
     ]
   },
   {
-    "year": 1888,
+    "year": 1879,
+    "yearRange": "1870s",
     "paintings": [
       {
-        "imgUrl": "la-mousme",
+        "imgUrl": "lydia-leaning-on-her-arms-in-a-theatre-box.jpg",
+        "srcUrl": "http://collection.imamuseum.org/artwork/80112/",
+        "title": "Lydia Leaning on Her Arms (in a theatre box)",
+        "artist": "Frank Weston Benson"
+      }
+    ]
+  },
+  {
+    "year": 1888,
+    "yearRange": "1880s",
+    "paintings": [
+      {
+        "imgUrl": "la-mousme.jpg",
         "srcUrl": "https://www.nga.gov/collection/art-object-page.46626.html",
         "title": "La Mousmé",
         "artist": "Vincent van Gogh"
@@ -33,10 +114,32 @@
     ]
   },
   {
+    "year": 1901,
+    "paintings": [
+      {
+        "imgUrl": "portrait-de-jaime-sabartes-le-bock.jpg",
+        "srcUrl": "https://en.wikipedia.org/wiki/File:Pablo_Picasso,_1901-02,_Le_bock_(Portrait_de_Jaime_Sabartes),_The_Glass_of_Beer_(Portrait_of_the_Poet_Sabartes),_oil_on_canvas,_82_x_66_cm,_Pushkin_Museum,_Moscow.jpg",
+        "title": "Portrait De Jaime Sabartes (Le Bock)",
+        "artist": "Pablo Picasso"
+      }
+    ]
+  },
+  {
+    "year": 1909,
+    "paintings": [
+      {
+        "imgUrl": "sunlight.jpg",
+        "srcUrl": "http://collection.imamuseum.org/artwork/80112/",
+        "title": "Sunlight",
+        "artist": "Frank Weston Benson"
+      }
+    ]
+  },
+  {
     "year": 1921,
     "paintings": [
       {
-        "imgUrl": "h-desbrowe-annear",
+        "imgUrl": "h-desbrowe-annear.jpg",
         "srcUrl": "https://www.artgallery.nsw.gov.au/collection/works/4557/",
         "title": "H. Desbrowe Annear",
         "artist": "W B McInnes"
@@ -44,10 +147,67 @@
     ]
   },
   {
+    "year": 1939,
+    "paintings": [
+      {
+        "imgUrl": "hon-gj-bell-cmg-dso-vd-speaker-house-of-representatives.jpg",
+        "srcUrl": "https://www.artgallery.nsw.gov.au/prizes/archibald/1939/17497/",
+        "title": "Hon GJ Bell, CMG, DSO, VD (Speaker, House of Representatives)",
+        "artist": "Max Meldrum"
+      }
+    ]
+  },
+  {
+    "year": 1948,
+    "paintings": [
+      {
+        "imgUrl": "margaret-olley-1948.jpg",
+        "srcUrl": "https://www.artgallery.nsw.gov.au/collection/works/8164/",
+        "title": "Margaret Olley",
+        "artist": "William Dobell"
+      }
+    ]
+  },
+  {
+    "year": 1959,
+    "yearRange": "1950s",
+    "paintings": [
+      {
+        "imgUrl": "dr-edward-macmahon.jpg",
+        "srcUrl": "https://www.artgallery.nsw.gov.au/prizes/archibald/1959/15686/",
+        "title": "Dr Edward MacMahon",
+        "artist": "William Dobell"
+      }
+    ]
+  },
+  {
+    "year": 1982,
+    "yearRange": "Late 1970s, early 1980s",
+    "paintings": [
+      {
+        "imgUrl": "peter-sculthorpe.jpg",
+        "srcUrl": "https://www.artgallery.nsw.gov.au/prizes/archibald/1982/18772/",
+        "title": "Peter Sculthorpe",
+        "artist": "Eric John Smith"
+      }
+    ]
+  },
+  {
+    "year": 1990,
+    "paintings": [
+      {
+        "imgUrl": "dorothy-hewett.jpg",
+        "srcUrl": "https://www.artgallery.nsw.gov.au/prizes/archibald/1990/18128/",
+        "title": "Dorothy Hewett",
+        "artist": "Geoffrey Proud"
+      }
+    ]
+  },
+  {
     "year": 1992,
     "paintings": [
       {
-        "imgUrl": "the-prime-minister",
+        "imgUrl": "the-prime-minister.jpg",
         "srcUrl": "https://www.artgallery.nsw.gov.au/prizes/archibald/1991-92/19241/",
         "title": "The Prime Minister",
         "artist": "Bryan Westwood"
@@ -55,10 +215,43 @@
     ]
   },
   {
+    "year": 1995,
+    "paintings": [
+      {
+        "imgUrl": "self-portrait-with-stunned-mullet.jpg",
+        "srcUrl": "https://www.artgallery.nsw.gov.au/prizes/archibald/1995/19647/",
+        "title": "Self-portrait with stunned mullet",
+        "artist": "William Robinson"
+      }
+    ]
+  },
+  {
+    "year": 1997,
+    "paintings": [
+      {
+        "imgUrl": "barbara-blackman.jpg",
+        "srcUrl": "https://www.artgallery.nsw.gov.au/prizes/archibald/1997/18915/",
+        "title": "Barbara Blackman",
+        "artist": "Nigel Thomson"
+      }
+    ]
+  },
+  {
+    "year": 1999,
+    "paintings": [
+      {
+        "imgUrl": "self-portrait-head-like-a-hole.jpg",
+        "srcUrl": "https://www.artgallery.nsw.gov.au/prizes/archibald/1999/17203/",
+        "title": "Self-portrait/head like a hole",
+        "artist": "Euan Macleod"
+      }
+    ]
+  },
+  {
     "year": 2003,
     "paintings": [
       {
-        "imgUrl": "richard-flanagan",
+        "imgUrl": "richard-flanagan.jpg",
         "srcUrl": "https://www.artgallery.nsw.gov.au/prizes/archibald/2003/22978/",
         "title": "Richard Flanagan",
         "artist": "Geoffrey Dyer"
@@ -69,13 +262,13 @@
     "year": 2004,
     "paintings": [
       {
-        "imgUrl": "david-gulpilil-two-worlds",
+        "imgUrl": "david-gulpilil-two-worlds.jpg",
         "srcUrl": "https://www.artgallery.nsw.gov.au/prizes/archibald/2004/27945/",
         "title": "David Gulpilil, two worlds",
         "artist": "Craig Ruddy"
       },
       {
-        "imgUrl": "jana-wendt",
+        "imgUrl": "jana-wendt.jpg",
         "srcUrl": "https://www.artgallery.nsw.gov.au/prizes/archibald/2004/27941/",
         "title": "Jana Wendt",
         "artist": "Evert Ploeg"
@@ -86,7 +279,7 @@
     "year": 2007,
     "paintings": [
       {
-        "imgUrl": "janet-laurence",
+        "imgUrl": "janet-laurence.jpg",
         "srcUrl": "https://www.artgallery.nsw.gov.au/collection/works/346.2007/",
         "title": "Janet Laurence",
         "artist": "John Beard"
@@ -94,13 +287,91 @@
     ]
   },
   {
-    "year": 2018,
+    "year": 2008,
     "paintings": [
       {
-        "imgUrl": "agatha-gothe-snape",
+        "imgUrl": "you-are-what-is-most-beautiful-about-me-a-self-portrait-with-kell-and-arella.jpg",
+        "srcUrl": "https://www.artgallery.nsw.gov.au/prizes/archibald/2008/28606/",
+        "title": "You are what is most beautiful about me, a self-portrait with Kell and Arella",
+        "artist": "Del Kathryn Barton"
+      }
+    ]
+  },
+  {
+    "year": 2010,
+    "paintings": [
+      {
+        "imgUrl": "tim-minchin.jpg",
+        "srcUrl": "https://www.artgallery.nsw.gov.au/prizes/archibald/2010/29009/",
+        "title": "Tim Minchin",
+        "artist": "Sam Leach"
+      }
+    ]
+  },
+  {
+    "year": 2011,
+    "paintings": [
+      {
+        "imgUrl": "margaret-olley-2011.jpg",
+        "srcUrl": "https://www.artgallery.nsw.gov.au/prizes/archibald/2011/28931/",
+        "title": "Margaret Olley",
+        "artist": "Ben Quilty"
+      }
+    ]
+  },
+  {
+    "year": 2012,
+    "paintings": [
+      {
+        "imgUrl": "the-histrionic-wayfarer-after-bosch.jpg",
+        "srcUrl": "https://www.artgallery.nsw.gov.au/prizes/archibald/2012/29250/",
+        "title": "The histrionic wayfarer (after Bosch)",
+        "artist": "Tim Storrier"
+      }
+    ]
+  },
+  {
+    "year": 2015,
+    "paintings": [
+      {
+        "imgUrl": "judo-house-part-6-the-white-bird.jpg",
+        "srcUrl": "https://www.artgallery.nsw.gov.au/prizes/archibald/2015/29643/",
+        "title": "Judo house part 6 (the white bird)",
+        "artist": "Nigel Milsom"
+      }
+    ]
+  },
+  {
+    "year": 2016,
+    "paintings": [
+      {
+        "imgUrl": "barry.jpg",
+        "srcUrl": "https://www.artgallery.nsw.gov.au/prizes/archibald/2016/29709/",
+        "title": "Barry",
+        "artist": "Louise Hearman"
+      }
+    ]
+  },
+  {
+    "year": 2017,
+    "paintings": [
+      {
+        "imgUrl": "agatha-gothe-snape.jpg",
         "srcUrl": "https://www.artgallery.nsw.gov.au/prizes/archibald/2017/29825/",
         "title": "Agatha Gothe-Snape",
         "artist": "Mitch Cairns"
+      },
+      {
+        "imgUrl": "jc.jpg",
+        "srcUrl": "https://www.artgallery.nsw.gov.au/prizes/archibald/2017/29832/",
+        "title": "JC",
+        "artist": "Anh Do"
+      },
+      {
+        "imgUrl": "lisa-wilkinson-am.jpg",
+        "srcUrl": "https://www.artgallery.nsw.gov.au/prizes/archibald/2017/29818/",
+        "title": "Lisa Wilkinson AM",
+        "artist": "Peter Smeeth"
       }
     ]
   }

@@ -4,13 +4,13 @@
     {% set imgSrc = "https://res.cloudinary.com/dannywhite/image/upload/h_500,q_50/v1608271100/camera-obscura/" %}
     {# Begin three images #}
     <img data-ref="first" 
-      src="{{ imgSrc }}{{ attributions.frescoFragmentOfADancingWoman.imgUrl }}"
-      alt="{{ attributions.frescoFragmentOfADancingWoman.title }}" class="active">
+      src="{{ imgSrc }}/dancing-woman-from-knossos.jpg"
+      alt="Fresco fragment of a dancing woman" class="active">
     <img data-ref="second"
-      src="{{ imgSrc }}{{ attributions.monaLisa.imgUrl }}"
-      alt="{{ attributions.monaLisa.title }}">
+      src="{{ imgSrc }}/mona-lisa.jpg"
+      alt="The Mona Lisa">
     <img data-ref="third"
-      src="{{ imgSrc }}{{ attributions.robertCornelius.imgUrl }}"
+      src="{{ imgSrc }}/robert-cornelius.jpg"
       alt="{{ attributions.robertCornelius.title }}">
   </div>
 
@@ -87,21 +87,19 @@ often assumed, a mechanical record. Every time we look at a photograph, we are a
   <aside class="callout">
     <p>This webpage explores the how portraiture and photography have each developed.</p>
   </aside>
-
-  <ul class="gallery-wall">
-    {% for item in paintings %}
-      <li>
-        {# TODO: use g_face?  #}
-        <img src="https://res.cloudinary.com/dannywhite/image/upload/h_100,q_50/v1608271100/camera-obscura/{{ item.paintings[0].imgUrl }}" alt="TODO" title="{{ item.year }}">
-      </li>
-    {% endfor %}
-  </ul>
-
   <div class="container">
     <p>
       Material innovations, invention of new pigments... There are a lot of other
       historical developments that affect portraiture (and photography). (TK)
     </p>
   </div>
+
+  <ul class="gallery-wall">
+    {% for item in paintings %}
+      <li>
+        <img src="https://res.cloudinary.com/dannywhite/image/upload/h_240,q_50/v1608271100/camera-obscura/{{ item.paintings[0].imgUrl }}" alt="{{ item.paintings[0].title }}" title="{{ item.year }}">
+      </li>
+    {% endfor %}
+  </ul>
 
 </section>

@@ -1,6 +1,6 @@
 {# Set standard transform for this section #}
 {% set textImgSrc = "https://res.cloudinary.com/dannywhite/image/upload/h_100,q_50/v1608271100/camera-obscura/" %}
-{% set paintingImgSrc = "https://res.cloudinary.com/dannywhite/image/upload/w500,q_50/v1608271100/camera-obscura/" %}
+{% set paintingImgSrc = "https://res.cloudinary.com/dannywhite/image/upload/w_500,q_50/v1608271100/camera-obscura/" %}
 
 <div>
     <header aria-label="year navigator">
@@ -17,14 +17,42 @@
         </nav>
     </header>
 
+
+    <p>Begin test...</p>
+
+    {% for item in collections.photography %}
+    {% set itemYear = item.data.title %}
+
+    <section id="{{ itemYear }}" aria-label="year section">
+        <h2>{{ itemYear }}</h2>
+        {{ item.templateContent | safe }}
+
+        {% for item in paintings %}
+        {% if item.year === itemYear %}
+        <ul>
+            {% for painting in item.paintings %}
+            <li>
+                <img src="{{ paintingImgSrc }}{{ painting.imgUrl }}" alt="TODO" title="{{ item.year }}">
+            </li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+        {% endfor %}
+    </section>
+
+
+    {% endfor %}
+
+    <p>End test</p>
+
+
     <section aria-label="year section">
         <h2>500&hairsp;–&hairsp;400 BC</h2>
         <p>An Iraqi scientist develops the camera obscura; allowing images to be projected onto another surface (to then
-            be
-            traced to create accurate drawings).</p>
+            be traced to create accurate drawings).</p>
     </section>
 
-    <section id="1992" aria-label="year section">
+    <!-- <section id="1992" aria-label="year section">
         <h2>1992</h2>
         <p>Tim Berners-Lee publishes the first ever photograph to the web: an image of the CERN house band Les Horribles
             Cernettes <img src="{{ textImgSrc }}/les-horribles-cernettes.png" alt="Photo of the Les Horribles
@@ -43,7 +71,7 @@
         </ul>
         {% endif %}
         {% endfor %}
-    </section>
+    </section> -->
 
     <section id="2004" aria-label="year section">
         <h2>2004</h2>
@@ -52,6 +80,24 @@
 
         {% for item in paintings %}
         {% if item.year === 2004 %}
+        <ul>
+            {% for painting in item.paintings %}
+            <li>
+                <img src="{{ paintingImgSrc }}{{ painting.imgUrl }}" alt="TODO" title="{{ item.year }}">
+            </li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+        {% endfor %}
+    </section>
+
+    <section id="2017" aria-label="year section">
+        <h2>2017</h2>
+        <p>Reddit user u/deepfakes coins the term for synthetic media where a person in an image or video is swapped
+            with another person's likeness.</p>
+
+        {% for item in paintings %}
+        {% if item.year === 2017 %}
         <ul>
             {% for painting in item.paintings %}
             <li>
